@@ -17,3 +17,19 @@ const btn_maytinh = document.getElementById("may_tinh");
 btn_maytinh.addEventListener("click", () => {
   window.location.href = "maytinhdongian.html";
 });
+function giaithua() {
+  const number_input = document.getElementById("txt_soN").value;
+  const number = parseInt(number_input);
+  if (number < 0) {
+    return;
+  }
+  let n = 1;
+  for (let i = 2; i < number; i++) {
+    giaithua *= i;
+  }
+  const result = document.getElementById("result_giaithua");
+  result.textContent = giaithua();
+}
+
+const btn_reset = document.getElementById("btn_reset");
+result.textContent = "";

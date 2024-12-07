@@ -25,3 +25,18 @@
   border-color: cadetblue;
   font-size: larger;
 }
+
+#btn_tinh {
+  display: flex;
+  border-radius: 5px;
+}
+
+#btn_reset {
+  display: flex;
+  padding: 10px, 50px;
+  border-radius: 5px;
+}
+
+#result_giaithua {
+  padding: 10px;
+}
