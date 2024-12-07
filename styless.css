@@ -16,3 +16,12 @@
   margin: 10px 75px;
   border-radius: 8px;
 }
+
+#may_tinh {
+  display: flex;
+  border-radius: 12px;
+  background-color: rgb(102, 210, 90);
+  color: aliceblue;
+  border-color: cadetblue;
+  font-size: larger;
+}
