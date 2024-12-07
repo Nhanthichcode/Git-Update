@@ -22,3 +22,11 @@ btn_reset.addEventListener("click", () => {
   txt_input.value = " ";
   txt_result1.textContent = "Nhập 1 số nguyên dương khác ";
 });
+
+const btn_tienhanh = document.getElementById("btn_user");
+btn_tienhanh.addEventListener("click", () => {
+  let input = document.getElementById("username");
+  let output = document.getElementById("txt_ketqua");
+  output.textContent =
+    "Chào bạn " + input.value + " rất vui được làm việc với bạn !";
+});

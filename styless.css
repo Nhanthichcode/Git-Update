@@ -18,14 +18,25 @@
 }
 
 #may_tinh {
+  position: absolute;
+  top: 90px;
+  left: 300px;
+  width: 180px;
+  height: 55px;
+  padding: 10px;
+  margin: 12px, 10px;
   display: flex;
   border-radius: 12px;
   background-color: rgb(102, 210, 90);
   color: aliceblue;
   border-color: cadetblue;
   font-size: larger;
+  border-radius: 0.4s;
 }
-
+#may_tinh:active {
+  background-color: pink;
+  color: black;
+}
 #btn_tinh_giaithua {
   background-color: cornflowerblue;
   color: white;
@@ -68,4 +79,21 @@
 #txt_result {
   position: absolute;
   top: 125px;
+}
+
+#username {
+  position: absolute;
+  top: 190px;
+}
+#txt_ketqua {
+  width: 165px;
+  height: 80px;
+  position: absolute;
+  top: 240px;
+}
+#btn_user {
+  size: cap;
+  position: absolute;
+  top: 215px;
+  left: 105px;
 }
