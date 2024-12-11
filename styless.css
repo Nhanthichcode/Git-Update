@@ -97,3 +97,51 @@
   top: 215px;
   left: 105px;
 }
+
+#txt_So_a {
+  display: flex;
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  top: 100px;
+  left: 250px;
+}
+#txt_So_b {
+  display: flex;
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  top: 130px;
+  left: 250px;
+}
+#btn_thuchien {
+  display: flex;
+  margin: 10px, 14px;
+  padding: 4px;
+  font-family: "Courier New", Courier, monospace;
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  top: 100px;
+  left: 320px;
+}
+#rdb_cong {
+  position: absolute;
+  left: 245px;
+  top: 170px;
+}
+#rdb_tru {
+  position: absolute;
+  left: 270px;
+  top: 170px;
+}
+#rdb_nhan {
+  position: absolute;
+  left: 295px;
+  top: 170px;
+}
+#rdb_chia {
+  position: absolute;
+  left: 320px;
+  top: 170px;
+}
